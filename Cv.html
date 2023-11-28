@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device=wight, initial-scale=1">
+      <title>Formular</title>
+      <style type="text/css">
+        table {
+          background-color: lightgrey;
+          border-collapse: collapse;
+        }
+        td {
+          padding: 10px;
+        }
+      </style>
+</HEAD>
+<body>
+  <form> <h1  style="text-align: center;"> Konkurz na pracovné miesto v leteckom podniku</h1> 
+  <table border="1" align="center">
+    |<tr>
+      <td width="130">Meno člena</td>
+      <td><input type="text" name="Meno člena "></td>
+      <td>Heslo</td>
+      <td><input type="password" name="heslo"></td>
+    </tr>
+    <tr>
+      <td width="130">Vzdelávanie</td>
+      <td><input type="radio" name="Vzdelávanie" value="Vyššie vzdelanie">Vyššie vzdelanie&nbsp;&nbsp;
+          <input type="radio" name="Vzdelávanie" value="
+          Stredoskolske vzdelanie">
+          Stredoskolske vzdelanie
+      </td>
+      <td>Špecialita</td>
+      <td><select name="zelovoc">
+        <optgroup label="1">
+        <option>pilot </option>
+        <option selected>letuška</option>
+        <option>ochrana letiska</option>
+        <option>sekretárka</option>
+      </optgroup>
+      <optgroup label="2">
+        <option>upratovačka</option>
+        <option>poradca</option>
+        <option>vodič</option>
+        <option>referent</option>
+      </optgroup>
+      </select>
+      </td>
+      </tr>
+<td> 
+    Skúsenosti
+      </td>
+      <td colspan="3">
+    <INPUT CHECKED TYPE="checkbox" NAME="pripomienky" VALUE="ins">Ano
+    <INPUT TYPE="checkbox" NAME="Nie"
+    VALUE="paci_sa_mi_velmi">Nie
+  </td>
+<tr>
+<td>
+    Resumé
+</td>
+<td colspan="3">
+     <TEXTAREA ROWS="5" COLS="50" NAME="komentar">
+        Povedzte o sebe prosím
+    </TEXTAREA>
+</td>
+</tr>
+<tr>
+<td colspan="2.5">
+  <INPUT TYPE="reset" VALUE="Vymazať">
+  </INPUT>
+</td>
+<td colspan="3">
+  <INPUT TYPE="submit" VALUE="Odoslať">
+</INPUT>
+</td>
+</tr>
+     </table>  
+    </select>
+</form>
+</body>
+</HTML>
